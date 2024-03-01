@@ -2,11 +2,6 @@
 
 An example of setting up a quick and easy configuration to get your connection string from appsettings.json to your repositories.
 
-Includes:
- - An example repository
- - Dependency injection set up
- - One endpoint to show proof of concept via debug 
-
 1. Create a Web Api Project in a new solution and select .NET 8 as the target framework.
 2. Add a new Class Libary project to the solution and select .NET 8 as the target framework.
 3. Add a project reference in the Web Api to reference your Class Library.
