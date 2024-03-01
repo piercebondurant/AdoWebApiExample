@@ -2,7 +2,7 @@
 
 namespace AdoWebApiExample.Repositories.Repositories.Common;
 
-public class BaseRepository
+public abstract class BaseRepository
 {
     private readonly IConfiguration _configuration;
     protected readonly string DB_CONNECTION_STRING;
