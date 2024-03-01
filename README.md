@@ -6,9 +6,9 @@ An example of setting up a quick and easy configuration to get your connection s
 2. Add a new Class Libary project to the solution and select .NET 8 as the target framework.
 3. Add a project reference in the Web Api to reference your Class Library.
 4. Set the Web Api as the startup project.
-5. Add the following NuGet Packages to your Class Library
- a. System.Data.SqlClient (latest version)
- b. Microsoft.Extensions.Configuration (latest version)
+5. Add the following NuGet Packages to your Class Library  
+ a. System.Data.SqlClient (latest version)  
+ b. Microsoft.Extensions.Configuration (latest version)  
 6. Add dependency injection for your configuration object.
 7. Create a base repository and use depency injection to get an IConfiguration object.
 8. Get your connection string and store it in a property in the base repository.
