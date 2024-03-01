@@ -9,7 +9,7 @@ public class ExampleRepository : BaseRepository
 
     public async Task<int> Create()
     {
-        var connectionString = GetConnectionString();
+        var connectionString = DB_CONNECTION_STRING;
         return -1;
     }
 }
