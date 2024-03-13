@@ -16,7 +16,7 @@ namespace AdoWebApiExample.Controllers
             _myRepository = myRepository;
         }
 
-        [HttpGet(Name = "Create")]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create()
         {
             return new OkObjectResult(await _myRepository.Create());
